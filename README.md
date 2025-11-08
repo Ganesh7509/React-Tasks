@@ -130,7 +130,7 @@ React-Tasks/
 git clone https://github.com/Ganesh7509/React-Tasks.git
 
 2️⃣ Navigate to the Project
-cd react-latest
+cd React-Tasks
 
 3️⃣ Install Dependencies
 npm install
@@ -140,8 +140,7 @@ npm run dev
 
 🌐 Live Demo
 
-👉 Visit Deployed Site
- (Add your Vercel or Netlify link here once deployed)
+👉 Visit Deployed Site :https://react-tasks-f5z9.vercel.app/
 
 🧑‍💻 Developer
 
