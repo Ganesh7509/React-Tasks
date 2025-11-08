@@ -1,4 +1,3 @@
-
 import './index.css'
 import Alltasks from './Alltasks';
 import Task1 from "./Task1";
@@ -19,12 +18,11 @@ import Login from './Login';
 
 import { useAuth } from './context/AuthContext';
 import PrivateRoute from './PrivateRoute';
-import ClickCounter from './ClickCounter';
-import HoverCounter from './HoverCounter';
-import Counter from './Counter';
-import Themeh from './Themeh';
+// import ClickCounter from './ClickCounter';
+// import HoverCounter from './HoverCounter';
+// import Counter from './Counter';
+// import Themeh from './Themeh';
 import Task11 from './Task11';
-
 
 const LazyTask5=React.lazy(()=>import('./Task5'));
 
@@ -41,7 +39,7 @@ function App(){
      <Counter></Counter>
      <Themeh></Themeh> */}
       <nav className='navbar'>
-             <NavLink to={'/'} className='nav-link'>Home</NavLink>
+      <NavLink to={'/'} className='nav-link'>Home</NavLink>
      <NavLink to={'/task1'} className="nav-link">Task1</NavLink>
      <NavLink  to={'/task2'} className="nav-link">Task2</NavLink>
      <NavLink  to={'/task3'}  className="nav-link">Task3</NavLink>
@@ -85,6 +83,5 @@ function App(){
     </>
   )
 }
-
 
 export default App;
