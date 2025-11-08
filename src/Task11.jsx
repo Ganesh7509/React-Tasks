@@ -1,6 +1,6 @@
 import React from "react";
-import ClickCounter from "./ClickCounter";
-import HoverCounter from "./HoverCounter";
+import ClickCounter from "./Clickcounter";
+import HoverCounter from "./Hovercounter";
 import Counter from "./Counter";
 import Themeh from "./Themeh";
 
